@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-06T18:58:59 IST" name="Default suite" finished-at="2025-01-06T18:59:18 IST" duration-ms="19623">
+    <groups>
+    </groups>
+    <test started-at="2025-01-06T18:58:59 IST" name="Default test" finished-at="2025-01-06T18:59:18 IST" duration-ms="19623">
+      <class name="motor.login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:motor.login@477b4cdf]" started-at="2025-01-06T18:58:28 IST" name="setup" finished-at="2025-01-06T18:58:59 IST" duration-ms="30400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setReport()[pri:0, instance:motor.login@477b4cdf]" started-at="2025-01-06T18:58:59 IST" name="setReport" finished-at="2025-01-06T18:58:59 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method signature="loginandlogout()[pri:0, instance:motor.login@477b4cdf]" started-at="2025-01-06T18:58:59 IST" name="loginandlogout" finished-at="2025-01-06T18:59:05 IST" duration-ms="5969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginandlogout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:motor.login@477b4cdf]" started-at="2025-01-06T18:59:05 IST" name="tearDown" finished-at="2025-01-06T18:59:07 IST" duration-ms="1502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginandlogout status=SUCCESS method=login.loginandlogout()[pri:0, instance:motor.login@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="mail()[pri:0, instance:motor.login@477b4cdf]" started-at="2025-01-06T18:59:07 IST" name="mail" finished-at="2025-01-06T18:59:18 IST" duration-ms="11594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:motor.login@477b4cdf]" started-at="2025-01-06T18:59:18 IST" name="tearDown" finished-at="2025-01-06T18:59:34 IST" duration-ms="15269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- motor.login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
