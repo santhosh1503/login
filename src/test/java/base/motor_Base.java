@@ -44,7 +44,7 @@ public class motor_Base {
 		  }
 		  if(baseconf.getProperty("browser").equalsIgnoreCase("ch")) {
 			  WebDriverManager.chromedriver().setup();
-				WebDriver driver = new ChromeDriver();
+				driver = new ChromeDriver();
 				driver.manage().window().maximize();
 				driver.get(baseconf.getProperty("testurl"));
 				System.out.println("URL opened successfully");
